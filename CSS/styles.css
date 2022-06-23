@@ -7,9 +7,53 @@
 
     Білий колір тексту #FFFFFF;
     Білий клір кнопки #FFFFFF;
+    Синій колір кнопки #2196F3;
     Сірий колір адреси #2196F3;
     Сірий колір доповнення #757575;
     Сірий колр нижньої адреси rgba(255, 255, 255, 0.6);
 
+    Колір сторінки #E5E5E5;
+    Колір Плакату #2F303A;
+    Колір вікна команди #F5F4FA;
+
 */
+
+body {
+    background-color: #FFFFFF;
+    color: #212121;;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Оформлення шапки */
+.logo {
+    color: #000000;
+}
+
+.caption {
+    color: #2196F3;
+}
+
+/* Сайт зараз */
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* ПОшта з телефоном */
+.more .more-link {
+    color: #757575;
+}
+
+.more .more-link:hover,
+.more .more-link:focus {
+    color: #2196F3;
+}
+
            
