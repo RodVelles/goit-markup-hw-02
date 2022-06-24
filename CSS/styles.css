@@ -55,5 +55,22 @@ ul {
 .more .more-link:focus {
     color: #2196F3;
 }
+ 
+/* Герой */
+.hero {
+    background-color: #2F303A;
+}
 
-           
+.hero .hero-title {
+    color: #FFFFFF;
+}
+
+/* Переваги помлуг */
+.section .section-text {
+    color: #757575;
+}
+
+/* Члени команди */
+.section .profession {
+    color: #757575;
+}
