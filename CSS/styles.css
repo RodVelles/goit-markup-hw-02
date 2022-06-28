@@ -52,6 +52,10 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav .link.corrent {
+    color: var(--accent-color);
+}
+
 /* ПОшта з телефоном */
 .more .more-link {
     color: #757575;
