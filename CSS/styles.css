@@ -16,12 +16,16 @@
     Колір Плакату #2F303A;
     Колір вікна команди #F5F4FA;
 
+    Колір кнопки фільтра #F5F4FA;
+
 */
 
 :root {
     --primary-text-color: #757575;
     --title-color: #212121;
     --accent-color: #2196F3;
+    --primary-btn-bgc: #F5F4FA;
+    --accent-btn-color: #FFFFFF;
 }
 
 body {
@@ -102,3 +106,19 @@ ul {
 .address .address-link {
    color: rgba(255, 255, 255, 0.6);
 }
+
+/* Портфоліо */
+
+/* Фільтир */
+.buttons .btn {
+    color: var(--title-color);
+    background-color: var(--primary-btn-bgc);
+}
+
+.buttons .btn:hover,
+.buttons .btn:focus {
+    color: var(--accent-btn-color);
+    background-color: var(--accent-color);
+}
+
+/* Список проектів */
