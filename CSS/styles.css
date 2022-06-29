@@ -42,7 +42,7 @@ ul {
 /* Оформлення шапки */
 .logo {
 	color: #000000;
-	font-family: Raleway, cursive;
+	font-family: Raleway, sans-seri;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -108,6 +108,13 @@ ul {
 }
 
 /* Переваги помлуг */
+.section .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
 .section .section-text {
 	color: var(--primary-text-color);
 }
