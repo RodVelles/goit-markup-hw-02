@@ -46,6 +46,7 @@ ul {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
+	text-decoration: none;
 }
 
 .caption {
@@ -62,6 +63,7 @@ ul {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -80,6 +82,7 @@ ul {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 }
 
 .more .more-link:hover,
@@ -162,6 +165,7 @@ ul {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	text-decoration: none;
 }
 
 .address .address-link {
@@ -169,6 +173,7 @@ ul {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	text-decoration: none;
 }
 
 /* Портфоліо */
@@ -177,6 +182,11 @@ ul {
 .buttons .btn {
 	color: var(--title-color);
 	background-color: var(--primary-btn-bgc);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 .buttons .btn:hover,
@@ -186,10 +196,21 @@ ul {
 }
 
 /* Список проектів */
+.link-content {
+	text-decoration: none;
+}
+
 .items .subject {
 	color: var(--title-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
 }
 
 .items .subject-text {
 	color: var(--primary-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
 }
