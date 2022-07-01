@@ -50,7 +50,7 @@ ul {
 }
 
 .caption {
-	color: var(--accent-color);
+	color: #2196F3;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -96,6 +96,7 @@ ul {
 }
 
 .button {
+	font-family: Roboto;
 	color: #ffffff;
 	background-color: #2196f3;
 	font-weight: 700;
@@ -162,6 +163,7 @@ ul {
 
 .address .address-map {
 	color: #ffffff;
+	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
@@ -169,17 +171,24 @@ ul {
 }
 
 .address .address-link {
-	color: rgba(255, 255, 255, 0.6);
+	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
 	text-decoration: none;
+}
+
+.address .address-link:hover,
+.address .address-link:focus {
+	color: var(--accent-color);
 }
 
 /* Портфоліо */
 
 /* Фільтир */
 .buttons .btn {
+	font-family: Roboto;
 	color: var(--title-color);
 	background-color: var(--primary-btn-bgc);
 	font-weight: 500;
