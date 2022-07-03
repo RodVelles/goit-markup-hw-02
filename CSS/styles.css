@@ -161,6 +161,10 @@ ul {
 	background-color: #2f303a;
 }
 
+.logo.slogan {
+	color: #ffffff;
+}
+
 .address .address-map {
 	color: #ffffff;
 	font-style: normal;
